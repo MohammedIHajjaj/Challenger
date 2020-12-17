@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  height: 100vh;
+  background: linear-gradient(-45deg, #9923a9 0%, #e958a2 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .content {
+  margin: 0 100px;
+}
+
+.main .content h1 {
+  color: white;
+  font-family: sans-serif, serif;
+  font-size: 72px;
+}
+
+.main .content p {
+  color: #650061;
+  font-family: serif;
+  font-size: 36px;
+}
+
+.main .content .buttons button {
+  width: 220px;
+  height: 40px;
+  border: none;
+  color: #650061;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 25px;
+  font-size: 24px;
+  margin-bottom: 3%;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 10%;
+  vertical-align: middle;
+}
+
+.main .content .footer {
+  margin-top: 100px;
+  font-size: 24px;
+}
+
+.main .image img {
+  position: absolute;
+  background-position: right bottom;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=app.css.map */
