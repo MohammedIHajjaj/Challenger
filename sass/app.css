@@ -17,6 +17,12 @@
   border-radius: 20px;
 }
 
+.color-picker button {
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+}
+
 .main {
   height: 100vh;
   background: linear-gradient(-45deg, var(--color1) 0%, var(--color2) 100%);
