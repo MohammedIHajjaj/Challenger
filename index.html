@@ -7,7 +7,23 @@
     <link rel="stylesheet" href="sass/app.css" />
   </head>
   <body>
-    <section class="main">
+    <div class="color-picker">
+      <span>
+        <input type="color" name="main-color" id="main-color" value="#e958a2" />
+        <label for="main-color">Main Color</label>
+      </span>
+      <span>
+        <input
+          type="color"
+          name="secondary-color"
+          id="secondary-color"
+          value="#9923a9"
+        />
+        <label for="secondary-color">Secondary Color</label>
+      </span>
+    </div>
+
+    <section class="main" id="basic-color">
       <div class="content">
         <h1>Challenger</h1>
         <p>Test You Knowledge and Skills Instantl</p>
@@ -19,9 +35,9 @@
           <p>A PSEU Project</p>
         </div>
       </div>
-      <div class="image">
-        <img src="img/login.png" alt="" />
-      </div>
+
+      <img src="img/login.png" alt="" />
     </section>
+    <script src="javascript.js"></script>
   </body>
 </html>

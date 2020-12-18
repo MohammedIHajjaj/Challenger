@@ -1,17 +1,25 @@
+:root {
+  --color1: #9923a9;
+  --color2: #e958a2;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
+.color-picker {
+  float: right;
+  margin-top: 5vh;
+  margin-right: 80vh;
+  padding: 10px;
+  background: white;
+  border-radius: 20px;
+}
+
 .main {
   height: 100vh;
-  background: linear-gradient(-45deg, #9923a9 0%, #e958a2 100%);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  background: linear-gradient(-45deg, var(--color1) 0%, var(--color2) 100%);
 }
 
 .main .content {
@@ -21,7 +29,8 @@
 .main .content h1 {
   color: white;
   font-family: sans-serif, serif;
-  font-size: 72px;
+  font-size: 78px;
+  padding-top: 100px;
 }
 
 .main .content p {
@@ -31,40 +40,27 @@
 }
 
 .main .content .buttons button {
-  width: 220px;
-  height: 40px;
+  display: block;
+  width: 420px;
+  height: 50px;
   border: none;
   color: #650061;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   border-radius: 25px;
   font-size: 24px;
-  margin-bottom: 3%;
+  margin: 3vh 0;
   text-align: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-left: 10%;
-  vertical-align: middle;
 }
 
 .main .content .footer {
-  margin-top: 100px;
+  margin-top: 32vh;
   font-size: 24px;
+  float: left;
 }
 
-.main .image img {
-  position: absolute;
-  background-position: right bottom;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-repeat: no-repeat;
+.main img {
+  float: right;
+  margin-right: 10vh;
 }
 /*# sourceMappingURL=app.css.map */
